@@ -1,6 +1,7 @@
 body {
     box-sizing: border-box;
     margin: 0;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 *, *::after, *::before {
@@ -13,10 +14,94 @@ header {
     height: 76px;
     background-color: #fff;
     border-bottom: 1px solid #f8e0fb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
 }
 
 header img {
     width: 151px;
     height: 40px;
-    margin: 18px auto;
+    /* margin: 18px auto; */
+    margin-right: 32px;
+}
+
+.menu__wrapper {
+    display: flex;
+}
+
+.menu__wrapper a {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000;
+    opacity: 0.5;
+    text-decoration: none;
+    margin-right: 32px;
+    white-space: nowrap;
+}
+
+/* END HEADER */
+
+.sell__nft {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+
+.sell__nft-bg {
+    position: absolute;
+    width: 1440px;
+    height: 499px;
+    left: 0;
+    top: 57px;
+    background: radial-gradient(50% 50% at 50% 50%, #e36ce6 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.4;
+    filter: blur(116px);
+    z-index: -1;
+}
+
+.sell__nft h1 {
+    margin: 0 auto;
+    padding-top: 117px;
+    font-family: "Syne", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: center;
+    color: #000;
+    text-shadow: -5px 5px 0px #fff;
+}
+
+.sell__nft-text {
+    max-width: 800px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #532c59;
+    padding-top: 32px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.sell__nft-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 114px;
+    padding: 16px 20px;
+    margin: 0 auto;
+    background: #532c59;
+    border-radius: 15px;
+    color: #fff;
+    font-family: "Syne", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
