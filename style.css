@@ -26,6 +26,27 @@ header img {
     margin-right: 32px;
 }
 
+.nft__h2 {
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.nft__h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #532c59;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 85px;
+}
+
 .menu__wrapper {
     display: flex;
 }
@@ -48,6 +69,8 @@ header img {
     display: flex;
     flex-flow: column;
     position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .sell__nft-bg {
@@ -61,6 +84,7 @@ header img {
     filter: blur(116px);
     z-index: -1;
 }
+
 
 .sell__nft h1 {
     margin: 0 auto;
@@ -104,4 +128,137 @@ header img {
     cursor: pointer;
     border: none;
     outline: none;
+}
+
+.sell__nft img {
+    position: absolute;
+}
+
+.sell__nft-img1 {
+    width: 173px;
+    height: 174px;
+    top: 5px;
+    left: 53px;
+}
+.sell__nft-img2 {
+    width: 111px;
+    height: 112px;
+    top: 67px;
+    right: 167px;
+}
+
+.sell__nft-img3 {
+    width: 299px;
+    height: 300px;
+    left: -16px;
+    top: 298px;
+}
+
+.sell__nft-img4 {
+    width: 211px;
+    height: 211px;
+    top: 387px;
+    right: 33px;
+}
+
+/* END SELL NFT */
+
+.section__partners {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    margin: 0 auto;
+    margin-top: 101px;
+    max-width: 1440px;
+}
+.section__partners img {
+    margin-right: 40px;
+}
+
+.section__partners img:last-child {
+    margin-right: 0;
+}
+
+/* END SECTION PARTNERS */
+
+.team {
+    display: flex;
+    flex-flow: column;
+    margin-top: 80px;
+}
+
+.wrapper__team {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin: 0 100px;
+    white-space: nowrap;
+    padding-bottom: 160px;
+}
+
+.wrapper__team-card {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.wrapper__team-card p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    color: #000;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.wrapper__team-card span {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    color: #532c59;
+}
+
+/* END TEAM SECTION */
+
+.collections {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+}
+
+.wrapper__collections {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.wrapper-collection {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 412px;
+    margin: 0 16px;
+    margin-bottom: 64px;
+}
+
+.wrapper-collection p {
+    font-family: "Syne", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+    color: #000;
+    padding-bottom: 12px;
+    margin-top: 16px;
+}
+
+.wrapper-collection span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #532c59;
 }
