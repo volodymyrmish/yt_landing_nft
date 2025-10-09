@@ -44,7 +44,6 @@ header img {
     color: #532c59;
     max-width: 800px;
     margin: 0 auto;
-    padding-bottom: 85px;
 }
 
 .menu__wrapper {
@@ -195,6 +194,7 @@ header img {
     margin: 0 100px;
     white-space: nowrap;
     padding-bottom: 160px;
+    padding-top: 80px;
 }
 
 .wrapper__team-card {
@@ -233,6 +233,7 @@ header img {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding-top: 64px;
 }
 
 .wrapper-collection {
@@ -261,4 +262,89 @@ header img {
     line-height: 20px;
     text-align: center;
     color: #532c59;
+}
+
+/* END SECTION COLLECTION */
+
+.section__provide {
+    display: flex;
+    flex-flow: column;
+}
+
+.provide {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 56px;
+    margin: 0 auto;
+}
+
+.wrapper__provide {
+    max-width: 301px;
+    margin: 0 16px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.wrapper__provide p {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #000;
+    margin: 12px 0;
+}
+
+.wrapper__provide span {
+    font-style: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    color: #532c59;
+}
+
+/* END SECTION PROVIDE */
+
+.section__qanda {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper__qanda {
+    padding: 24px;
+    border: 2px solid #d6bcfa;
+    border-radius: 15px;
+    background: #fcfaff;
+    position: relative;
+    max-width: 412px;
+}
+
+.wrapper__qanda img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.wrapper__qanda p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #000;
+    opacity: 0.8;
+    margin: 0;
+    padding-bottom: 12px;
+}
+
+.wrapper__qanda span {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #532c59;
+    overflow: hidden;
+    transition: 0.3s;
 }
